@@ -1,0 +1,42 @@
+.profile {
+  margin-top: 20px;
+}
+.profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+.profile h6 {
+  margin: 0;
+  font-weight: 700;
+}
+.profile {
+  display: flex;
+
+  align-items: center;
+}
+.profile p {
+  margin: 0;
+}
+.profileInfo {
+  margin-left: 10px;
+}
+.personDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px 15px;
+  margin-top: 20px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.personDetails p {
+  margin-bottom: 0;
+  color: gray;
+}
+.personDetails span {
+  font-weight: bold;
+}

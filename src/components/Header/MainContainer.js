@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
+
 import "./MainContainer.css";
 import logo from "../../images/Logo.svg";
 import Exercise from "../Exercise/Exercise";
-import profile from "../../images/profile.png";
+import Profile from "../Profile/Profile";
+import PersonInfo from "../Profile/PersonInfo";
 
 const MainContainer = () => {
   const [exercises, setExercises] = useState([]);
@@ -31,15 +31,8 @@ const MainContainer = () => {
         </div>
       </div>
       <div className="exerciseDetails">
-        <div className="profile">
-          <img src={profile} alt="" />
-          <div>
-            <h6>Shariful Islam</h6>
-            <p>
-              <FontAwesomeIcon icon={faCartPlus} />
-            </p>
-          </div>
-        </div>
+        <Profile></Profile>
+        <PersonInfo></PersonInfo>
         <h1>exercises details</h1>
       </div>
     </div>
