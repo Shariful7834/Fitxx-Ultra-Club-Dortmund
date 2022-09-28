@@ -1,0 +1,37 @@
+.exercise-container {
+  width: 100%;
+  height: 410px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.exercise-container img {
+  width: 100%;
+  height: 150px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.exerciseInfo {
+  padding: 10px;
+}
+.exerciseInfo p {
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 8px;
+}
+.smallInfo {
+  font-weight: bold;
+}
+.addlistBtn {
+  width: 100%;
+  background-color: #6056eb;
+  border: none;
+  height: 48px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+.addlistBtn:hover {
+  background-color: rgb(25, 187, 133);
+}

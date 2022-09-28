@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.exerciseSection {
+  background-color: rgb(238, 255, 254);
+}
+.exerciseDetails {
+  background-color: aquamarine;
+}
+.brandNameWIthLogo {
+  display: flex;
+  color: tomato;
+  align-items: center;
+}
+.brandNameWIthLogo img {
+  width: 90px;
+  height: 90px;
+}
+.brandName {
+  margin-left: 30px;
+}
+.exerciseContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.selectExercise h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  margin-left: 10px;
+}

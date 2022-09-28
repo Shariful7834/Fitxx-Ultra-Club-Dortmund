@@ -1,0 +1,51 @@
+[
+  {
+    "id": "633486b4f47fb640ad33f37d",
+    "picture": "https://www.bodybuilding.com/images/2020/november/8-tips-to-make-2021-your-fittest-year-ever-header-960x540.jpg",
+    "description": "The FitX app makes everything easier - except for your dumbbells. For example, you can have training plans created in the studio and easily",
+    "age": 20,
+    "timerequired": 20
+  },
+  {
+    "id": "633486b45df23d0aad11d4e8",
+    "picture": "https://www.rudymawer.com/blog/wp-content/uploads/2016/04/trx-pike-plank.jpg",
+    "description": "The FitX app makes everything easier - except for your dumbbells. For example, you can have training plans created in the studio and easily",
+    "age": 21,
+    "timerequired": 27
+  },
+  {
+    "id": "633486b4c4255213e5b5a05f",
+    "picture": "https://www.iwmbuzz.com/wp-content/uploads/2021/02/stay-fit-forever-with-these-3-basic-ways-2-920x518.jpg",
+    "description": "The FitX app makes everything easier - except for your dumbbells. For example, you can have training plans created in the studio and easily",
+    "age": 22,
+    "timerequired": 11
+  },
+  {
+    "id": "633486b45ee6da729c573804",
+    "picture": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-wide-image/workout/return_to_ripped_1000x500.jpg",
+    "description": "The FitX app makes everything easier - except for your dumbbells. For example, you can have training plans created in the studio and easily",
+    "age": 21,
+    "timerequired": 35
+  },
+  {
+    "id": "633486b4323983fd55362e04",
+    "picture": "https://generationiron.com/wp-content/uploads/2019/09/The-10-Best-Bodybuilding-Exercises-Of-All-Time.jpg",
+    "description": "The FitX app makes everything easier - except for your dumbbells. For example, you can have training plans created in the studio and easily",
+    "age": 25,
+    "timerequired": 36
+  },
+  {
+    "id": "633486b4f6cf4a72c78cb6d6",
+    "picture": "https://generationiron.com/wp-content/uploads/2019/09/The-10-Best-Bodybuilding-Exercises-Of-All-Time.jpg",
+    "description": "The FitX app makes everything easier - except for your dumbbells. For example, you can have training plans created in the studio and easily",
+    "age": 21,
+    "timerequired": 40
+  },
+  {
+    "id": "633486b4d746fa4d2bd46b05",
+    "picture": "https://www.bodybuilding.com/images/2020/november/8-tips-to-make-2021-your-fittest-year-ever-header-960x540.jpg",
+    "description": "The FitX app makes everything easier - except for your dumbbells. For example, you can have training plans created in the studio and easily",
+    "age": 22,
+    "timerequired": 18
+  }
+]
