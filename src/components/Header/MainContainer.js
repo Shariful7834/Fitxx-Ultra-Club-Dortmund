@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import "./MainContainer.css";
 import logo from "../../images/Logo.svg";
 import Exercise from "../Exercise/Exercise";
@@ -33,7 +35,9 @@ const MainContainer = () => {
           <img src={profile} alt="" />
           <div>
             <h6>Shariful Islam</h6>
-            
+            <p>
+              <FontAwesomeIcon icon={faCartPlus} />
+            </p>
           </div>
         </div>
         <h1>exercises details</h1>
