@@ -1,12 +1,15 @@
 .container {
   display: grid;
   grid-template-columns: 3fr 1fr;
+  position: relative;
 }
 .exerciseSection {
   background-color: rgb(238, 255, 254);
 }
 .exerciseDetails {
   background-color: aquamarine;
+  position: sticky;
+  top: 0;
 }
 .brandNameWIthLogo {
   display: flex;
@@ -62,17 +65,26 @@
 
   border-radius: 10px;
 }
-.activityBtn {
-  width: 88%;
-  background-color: #6056eb;
-  border: none;
-  height: 48px;
-  border-radius: 5px;
-  font-weight: bold;
-  color: white;
-  margin-top: 50px;
-  margin-left: 20px;
+
+@media only screen and (max-width: 688px) {
+  .container {
+    width: 100%;
+  }
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .exerciseContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
-.activityBtn:hover {
-  background-color: rgb(25, 187, 133);
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .exerciseContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

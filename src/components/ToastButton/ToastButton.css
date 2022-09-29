@@ -1,0 +1,14 @@
+.activityBtn {
+  width: 88%;
+  background-color: #6056eb;
+  border: none;
+  height: 48px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.activityBtn:hover {
+  background-color: rgb(25, 187, 133);
+}

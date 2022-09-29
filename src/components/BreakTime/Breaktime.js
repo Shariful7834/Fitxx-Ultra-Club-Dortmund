@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Breaktime.css";
 
-const Breaktime = () => {
+const Breaktime = (props) => {
   return (
     <div className="breaktime">
       <p className="breaktimeP">Break time</p>
-      <p> seconds</p>
+      <p> {props.breakTimes} seconds</p>
     </div>
   );
 };

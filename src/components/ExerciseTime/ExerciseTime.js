@@ -8,7 +8,7 @@ const ExerciseTime = ({ time }) => {
   }
   return (
     <div>
-      <h3>Exercise Details {time.length}</h3>
+      <h3>Exercise Details</h3>
       <div className="exercise-time">
         <p className="exTime">Exercise Time</p>
         <p>{totalSecond} seconds</p>
