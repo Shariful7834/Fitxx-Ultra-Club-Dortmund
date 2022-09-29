@@ -30,7 +30,7 @@ const Answer = () => {
                 changes that need to be made to the actual DOM and then does it
                 all in one single process. In fancy words, React does batch
                 updates. So putting all pieces together, Reconciliation = Render
-                + Diffing occurs in between + Commit{" "}
+                + Diffing occurs in between + Commit.
               </strong>
             </div>
           </div>
@@ -45,7 +45,7 @@ const Answer = () => {
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              Accordion Item #2
+              Difference Between Props and State
             </button>
           </h2>
           <div
@@ -55,14 +55,23 @@ const Answer = () => {
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              <strong>
+                Props are read-only components. It is an object which stores the
+                value of attributes of a tag and work similar to the HTML
+                attributes. It allows passing data from one component to other
+                components. It is similar to function arguments and can be
+                passed to the component the same way as arguments passed in a
+                function. Props are immutable so we cannot modify the props from
+                inside the component. The state is an updatable structure that
+                is used to contain data or information about the component and
+                can change over time. The change in state can happen as a
+                response to user action or system event. It is the heart of the
+                react component which determines the behavior of the component
+                and how it will render. A state must be kept as simple as
+                possible. It represents the component's local state or
+                information. It can only be accessed or modified inside the
+                component or by the component directly.
+              </strong>
             </div>
           </div>
         </div>
@@ -76,7 +85,7 @@ const Answer = () => {
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              Accordion Item #3
+              UseEffect uses in different perspects
             </button>
           </h2>
           <div
@@ -86,14 +95,13 @@ const Answer = () => {
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              <strong>
+                The useEffect Hook allows you to perform side effects in your
+                components. UseEffect is used for fetching information from
+                external sources. UseEffect also used for validating input
+                field, live filtering, trigger animation on new array on state
+                change.
+              </strong>
             </div>
           </div>
         </div>
