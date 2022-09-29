@@ -32,3 +32,33 @@
   margin-bottom: 20px;
   font-weight: 600;
 }
+.breakBtn {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+}
+.breakBtn:hover {
+  background-color: rgb(60, 21, 233);
+  color: white;
+}
+.addBreak {
+  margin-top: 30px;
+}
+.addBreak h3 {
+  margin-left: 20px;
+  font-size: 1.5rem;
+}
+.allBtn {
+  background-color: white;
+  margin: 20px 20px;
+  height: 50px;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+
+  border-radius: 10px;
+}
