@@ -7,6 +7,7 @@ import PersonInfo from "../Profile/PersonInfo";
 import ExerciseTime from "../ExerciseTime/ExerciseTime";
 import Breaktime from "../BreakTime/Breaktime";
 import ToastButton from "../ToastButton/ToastButton";
+import Answer from "../Answer/Answer";
 
 const MainContainer = () => {
   const [exercises, setExercises] = useState([]);
@@ -69,6 +70,7 @@ const MainContainer = () => {
         <Breaktime breakTimes={breakTimes}></Breaktime>
         <ToastButton></ToastButton>
       </div>
+      <Answer></Answer>
     </div>
   );
 };
