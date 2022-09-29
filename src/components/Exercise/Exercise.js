@@ -8,7 +8,7 @@ const Exercise = (props) => {
     <div className="exercise-container">
       <img src={picture} alt="" />
       <div className="exerciseInfo">
-        <h4>Dumble</h4>
+        <h4>{title}</h4>
         <p>
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint.

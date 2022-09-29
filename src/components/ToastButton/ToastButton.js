@@ -3,7 +3,7 @@ import "./ToastButton.css";
 import { ToastContainer, toast } from "react-toastify";
 
 const ToastButton = (props) => {
-  const notify = () => toast("Wow so easy !");
+  const notify = () => toast("Success");
   return (
     <div>
       <button onClick={notify} className="activityBtn">
@@ -13,5 +13,4 @@ const ToastButton = (props) => {
     </div>
   );
 };
-
 export default ToastButton;

@@ -13,6 +13,7 @@ const MainContainer = () => {
   const [exercises, setExercises] = useState([]);
   const [time, setTimes] = useState([]);
   const [breakTimes, setBreaktimes] = useState("");
+
   useEffect(() => {
     fetch("gymdata.json")
       .then((res) => res.json())
