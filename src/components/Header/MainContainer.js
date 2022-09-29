@@ -58,6 +58,7 @@ const MainContainer = () => {
         </div>
         <ExerciseTime time={time}></ExerciseTime>
         <Breaktime></Breaktime>
+        <button className="activityBtn">Activity Completed</button>
       </div>
     </div>
   );
